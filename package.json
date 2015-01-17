@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/camshaft/rework2ast",
   "devDependencies": {
+    "ast2template": "^0.2.9",
     "mocha": "^2.1.0",
     "should": "^4.6.0"
   },
