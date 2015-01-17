@@ -1,0 +1,30 @@
+{
+  "name": "rework2ast",
+  "version": "0.1.0",
+  "description": "transform rework to an ast",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camshaft/rework2ast.git"
+  },
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camshaft/rework2ast/issues"
+  },
+  "homepage": "https://github.com/camshaft/rework2ast",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.6.0"
+  },
+  "dependencies": {
+    "css-whitespace": "^1.1.0",
+    "rework": "^1.0.1"
+  }
+}
