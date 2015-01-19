@@ -3,6 +3,7 @@
  */
 
 import {darken, other} from 'css-utils/darken'
+import Button from 'button.ess'
 
 var bg = colors.bg
 var foo = 'red'
@@ -18,6 +19,8 @@ body
 
   .(foo)-(bg)
     background: =foo
+
+Button(color='red')
 
 export var foo = foo
 

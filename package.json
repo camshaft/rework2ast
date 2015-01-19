@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "css-whitespace": "^1.1.0",
+    "jade2ast": "^0.1.6",
     "rework": "^1.0.1"
   }
 }
